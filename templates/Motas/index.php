@@ -3,7 +3,7 @@
 
     <?= $this->Html->link('Adicionar Mota', ['action' => 'add']) ?>
 
-    <table border="1">
+    <table class="table table-striped table-dark">
         <tr>
             <th>ID</th>
             <th>Marca</th>
@@ -24,13 +24,13 @@
                 <td><?= $mota->ano ?></td>
 
                 <td>
-                    <?= $this->Html->link('Ver', ['action' => 'view', $mota->id]) ?>
+                    <?= $this->Html->link('Ver', ['action'=>'view',$mota->id], ['class'=>'btn btn-kawasaki btn-sm']) ?>
 
-                    <?= $this->Html->link('Editar', ['action' => 'edit', $mota->id]) ?>
+                    <?= $this->Html->link('Editar', ['action'=>'edit',$mota->id], ['class'=>'btn btn-warning btn-sm']) ?>
 
                     <?= $this->Form->postLink('Apagar',
-                    ['action' => 'delete', $mota->id],
-                    ['confirm' => 'Tens a certeza?']) ?>
+                    ['action'=>'delete',$mota->id],
+                    ['confirm'=>'Tens a certeza?','class'=>'btn btn-danger btn-sm']) ?>
                 </td>
             </tr>
         <?php endforeach; ?>
