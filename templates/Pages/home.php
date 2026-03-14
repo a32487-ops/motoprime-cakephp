@@ -72,6 +72,8 @@ endif;
         <?= $this->fetch('meta') ?>
         <?= $this->fetch('css') ?>
         <?= $this->fetch('script') ?>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <?= $this->Html->css('style') ?>
     </head>
     <body>
         <div class="hero text-center text-white d-flex align-items-center justify-content-center">

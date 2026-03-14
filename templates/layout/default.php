@@ -39,12 +39,12 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
 
-            <a class="navbar-brand" href="/">Motoprime</a>
+            <a class="navbar-brand" href="/cakephp/motoprime">Motoprime</a>
 
             <div class="navbar-nav">
-                <a class="nav-link" href="/">Home</a>
-                <a class="nav-link" href="/motas">Motas</a>
-                <a class="nav-link" href="/motas/add">Adicionar Mota</a>
+                <a class="nav-link" href="/cakephp/motoprime">Home</a>
+                <a class="nav-link" href="/cakephp/motoprime/motas">Motas</a>
+                <a class="nav-link" href="/cakephp/motoprime/motas/add">Adicionar Mota</a>
             </div>
 
         </div>

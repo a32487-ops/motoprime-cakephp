@@ -29,7 +29,7 @@ color:#39FF14;
 
 .hero{
 height:80vh;
-background-image:url("https://images.unsplash.com/photo-1614200187524-dc4b892acf16");
+background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1902977.jpg&f=1&nofb=1&ipt=86b9b37ebacb318dcdc7888ed86d06d1835f8ab312110b4334a15aa3ca679c16");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -59,4 +59,21 @@ border:none;
 
 .btn-kawasaki:hover{
 background:#2ecc71;
+}
+
+input,
+textarea,
+select{
+background-color:#111;
+color:white;
+border:1px solid #39FF14;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+background-color:#111;
+color:white;
+border-color:#39FF14;
+box-shadow:0 0 5px #39FF14;
 }
